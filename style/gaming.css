@@ -1,0 +1,525 @@
+/* nav releted style */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    color: #0B0223;
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-title img {
+    width: 60px;
+    height: 30px;
+    padding-right: 20px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow {
+    display: flex;
+    margin-left: 30px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 4px 20px;
+}
+
+.nav-discription {
+    color: #3C354F;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-btn {
+    border: none;
+    padding-left: 10px;
+    background-color: rgba(253, 253, 253, 0);
+}
+
+.span1 {
+    color: #FF42A5;
+}
+
+/* banner section style */
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+.banner-section {
+    padding-top: 130px;
+}
+
+.banner-intro {
+    color: #0B0223;
+    /* text-align: center; */
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    /* padding-top: 100px; */
+}
+
+.banner-title {
+    /* text-align: center; */
+    font-family: "Work Sans";
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.banner-section ul {
+    margin-top: 25px;
+}
+
+.banner-section li {
+    list-style: none;
+    color: #534C64;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding-top: 8px;
+}
+
+.banner-section img {
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: none;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-1 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-btn {
+    margin-top: 35px;
+
+}
+
+
+/* gamer section style */
+.gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding: 90px 150px;
+}
+
+.gamer-section {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.gamer-title {
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-discription {
+    color: #534C64;
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.gamer-details .btn {
+    margin-left: 180px;
+}
+
+.gamer-end {
+    color: #534C64;
+    font-family: "Work Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: right;
+}
+
+
+/* online games section style */
+.online-games {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.online-title {
+    color: #0B0223;
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.span2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-image {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.online-discription {
+    color: #534C64;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* .images{
+    width: 100%;
+} */
+
+/* .image-discription {
+    color: #534C64;
+    font-family: "Work Sans";
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 30px;
+} */
+
+/* instantly play section style */
+.instantly {
+    display: flex;
+    /* gap: 100px; */
+    margin-top: 100px;
+    padding-left: 250px;
+    padding-right: 150px;
+}
+
+.instantly-section {
+    padding-top: 120px;
+    padding-right: 250px;
+}
+
+.instantly-title {
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.instantly-discription {
+    color: #534C64;
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hourse {
+    width: 500px;
+}
+
+.cartoon {
+    width: 200px;
+    position: relative;
+    bottom: 180px;
+    right: 80px;
+}
+
+
+/* play games section style */
+.play-games {
+    display: flex;
+    padding-left: 200px;
+}
+
+.play-section {
+    padding-left: 250px;
+    padding-right: 150px;
+    padding-top: 80px;
+}
+
+.play-title {
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-discription {
+    color: #534C64;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.span3 {
+    color: #8758F1;
+}
+
+.girl {
+    width: 500px;
+}
+
+.tiger {
+    width: 200px;
+    position: relative;
+    bottom: 180px;
+    left: 400px;
+}
+
+/* Careers section style */
+.Careers {
+    display: flex;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+}
+
+.careers-section {
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+    padding-left: 150px;
+}
+
+.careers-title {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 700;
+    /* line-height: 60px; */
+}
+
+.careers-discription {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.careers-list {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.careers-town {
+    color: #FFF;
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 50px;
+}
+
+.see-btn {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FF42A5;
+    display: inline-flex;
+    padding: 20px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    margin-top: 50px;
+}
+
+.careers-l-t {
+    display: flex;
+    /* gap: 50px; */
+}
+
+.careers-image img {
+    width: 800px;
+    height: 800px;
+}
+
+
+/* button image releted style */
+.button-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 70px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    /* text-align: center; */
+}
+
+.button button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: none;
+    color: #0B0223;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px 10px;
+    /* text-align: center; */
+}
+
+.button button img {
+    width: 40px;
+    height: 40px;
+}
+
+.button button:hover {
+    border-radius: 50px;
+    border: 1.5px solid #FF42A5;
+    background: #FFF;
+}
+
+
+
+/* footer section style */
+footer {
+    background: #0B0223;
+   
+    /* text-align: center; */
+}
+
+.footer-section {
+    padding: 100px 200px;
+    text-align: center;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    padding-left: 450px;
+}
+
+.footer-title img {
+    width: 60px;
+    height: 40px;
+    padding-right: 20px;
+}
+
+.footer-intro {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-discription {
+    display: flex;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 600;
+    gap: 50px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.footer-icon{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-icon button {
+    border: none;
+    background-color: #0B0223;
+    margin-left: 10px;
+}
+
+.footer-icon button img {
+    width: 80%;
+}
+
+.footer-discription1 {
+    display: flex;
+    gap: 40px;
+    padding-left: 300px;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-discription2 {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 500;
+}
